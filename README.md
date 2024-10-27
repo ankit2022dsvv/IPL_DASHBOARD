@@ -1,17 +1,44 @@
-# IPL_DASHBOARD
-Tablue DashBoard
-Problem Statement You work as a data analyst at IFP, a nationally recognised news agency, which is based out of New Delhi, and provides news reports and feeds to magazines, newspapers and TV broadcasters all over the country. The Sports Editor of the agency has approached you to build a Tableau dashboard of IPL statistics over the years since its inception in order to create an infographic for a newsletter that their team is working on. For this newsletter, in some cases, they will use the visual representations as you have created in Tableau directly for their infographic, and in a few other cases, they will use important statistics after trying out the different filters and customisations that you have provided for interactivity. Therefore, you are expected to build an interactive dashboard in Tableau for this purpose. Let’s watch the upcoming video and listen to Shreyas as he states the broad objective of this assignment.
+IPL Statistics Dashboard
+Overview
+This project presents an interactive Tableau dashboard visualizing IPL (Indian Premier League) statistics from its inception in 2008 to 2017. The dashboard is designed for the Sports Editor of IFP, a national news agency, to create engaging infographics for their newsletter. The visualizations highlight key match, player, and team statistics to provide insights into IPL performance over the years.
 
-In order to complete this assignment, you need to use the following two data set files:
+Objective
+The primary objective of this project is to build an interactive dashboard that includes:
 
-matches.csv - It contains match-level information for each and every match held in IPL from 2008 to 2017. deliveries.csv - It contains ball-by-ball information for each of the matches.
+Match Statistics
 
-Combining the information in these two data sets, you will be creating an interactive dashboard that highlights some of the important statistics of IPL over the years. You will learn more about the datasets in one of the videos below.
+Toss outcome vs. match outcome for each venue
+Biggest wins (by runs and by wickets)
+Highest totals across all seasons
+Player Statistics
 
-Assignment Sub-tasks
+Orange Cap contenders (highest run-scorers per season)
+Purple Cap contenders (highest wicket-takers per season)
+Batsmen with the most fours and sixes (per season and overall)
+Team Statistics
 
-Match Statistics Toss outcome vs Match outcome (for each Ground/Venue) Biggest wins (by runs and by wicket) Highest totals (across all the seasons)
+Season-wise team performance (wins vs. losses)
+Win percentage (home vs. away)
+Data Sources
+This dashboard utilizes the following datasets:
 
-Player Statistics Orange Cap contenders (The batsmen who have scored the maximum number of runs in a particular season) Purple Cap contenders (The bowlers who have taken the maximum number of wickets in a particular season) Batsmen who have hit the most number of fours and sixes (per season and overall)
+matches.csv: Contains match-level information for each IPL match from 2008 to 2017.
+deliveries.csv: Provides ball-by-ball information for each match.
+These datasets were combined to extract meaningful statistics and insights.
 
-Team Statistics Season-wise team performance (wins vs losses) Win %age ( home vs away)
+Installation
+Ensure you have Tableau installed on your computer.
+Download the matches.csv and deliveries.csv files from the provided source.
+Open Tableau and connect to the CSV files.
+Load the data and create the necessary visualizations as per the outlined objectives.
+Usage
+The dashboard includes various interactive elements:
+
+Filters: Users can filter data by season, team, player, and venue.
+Hover Effects: Hovering over data points provides additional details.
+Drill-Down: Users can click on elements to explore deeper insights.
+Viewing the Dashboard
+Open the Tableau workbook (.twb or .twbx file) in Tableau.
+Use the interactive filters to customize the view based on your interests.
+
+
