@@ -40,3 +40,6 @@ Drill-Down: Users can click on elements to explore deeper insights.
 Viewing the Dashboard
 Open the Tableau workbook (.twb or .twbx file) in Tableau.
 Use the interactive filters to customize the view based on your interests.
+
+![image](https://github.com/user-attachments/assets/49539c87-7d7b-4b15-b003-38617917a5df)
+
